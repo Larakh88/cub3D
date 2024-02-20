@@ -36,6 +36,9 @@ Ray-casting is a rendering technique used to create a 3D perspective in a 2D env
 	- Use the W, A, S, and D keys to move forward, backward, left, and right, respectively.
 	- Press ESC to exit the program.
 
+![cub3d](https://github.com/Larakh88/cub3D/assets/88907380/6f206890-f1e0-4cde-bde0-c428483df01a)
+
+
 ## Note on Texture Displays
 
 Note that the texture displays in this project are not optimized and may require improvements for better performance and visual quality. If time permits at a later stage, we will work on optimizing the texture displays to enhance the overall experience of the game.
