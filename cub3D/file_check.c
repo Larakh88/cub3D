@@ -6,7 +6,7 @@
 /*   By: lel-khou <lel-khou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 20:34:41 by ykulkarn          #+#    #+#             */
-/*   Updated: 2023/03/29 20:39:22 by lel-khou         ###   ########.fr       */
+/*   Updated: 2024/02/16 16:11:33 by lel-khou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ static int	check_color_ceiling(t_cube *cube)
 {
 	char	**ceiling;
 
-	ceiling = ft_split(cube->ceiling, ',');
+	ceiling = ft_split_special(cube->ceiling, ',');
 	if (color_error(ceiling, "Ceiling") == 1)
 		return (1);
 	if (!hex_color(cube, ceiling, "ceiling"))
@@ -56,7 +56,7 @@ static int	check_color_floor(t_cube *cube)
 {
 	char	**floor;
 
-	floor = ft_split(cube->floor, ',');
+	floor = ft_split_special(cube->floor, ',');
 	if (color_error(floor, "Floor") == 1)
 		return (1);
 	if (!hex_color(cube, floor, "floor"))

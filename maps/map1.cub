@@ -2,12 +2,12 @@
 
 F   34,41,43
 
-  EA ./images/colorstone.xpm
+  EA ../images/colorstone.xpm
 
 
-SO ./images/mossy.xpm
-WE ./images/purplestone.xpm
-NO ./images/greystone.xpm
+SO ../images/mossy.xpm
+WE ../images/purplestone.xpm
+NO ../images/greystone.xpm
 
     C         3,190,252
 

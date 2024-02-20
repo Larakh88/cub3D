@@ -6,7 +6,7 @@
 /*   By: lel-khou <lel-khou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/14 18:48:14 by ykulkarn          #+#    #+#             */
-/*   Updated: 2023/03/29 20:38:47 by lel-khou         ###   ########.fr       */
+/*   Updated: 2024/02/16 18:32:27 by lel-khou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,8 @@
 # include <stdlib.h>
 # include <stdio.h>
 # include <math.h>
-# include "./mlx/mlx.h"
-# include "libft/libft.h"
+# include "../mlx/mlx.h"
+# include "../libft/libft.h"
 # define W 13
 # define A 0
 # define S 1

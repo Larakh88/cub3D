@@ -6,7 +6,7 @@
 /*   By: lel-khou <lel-khou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/15 11:33:45 by lel-khou          #+#    #+#             */
-/*   Updated: 2023/03/29 20:44:33 by lel-khou         ###   ########.fr       */
+/*   Updated: 2024/02/16 18:35:12 by lel-khou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,6 +60,7 @@ static void	draw_slice(t_cube *cube, int x, t_data *texture)
 		{
 			cube->color = get_pix(*texture, texture->xtex, ytex);
 			my_mlx_pixel_put(&cube->img1, x, y, cube->color);
+			
 		}
 		else
 			my_mlx_pixel_put(&cube->img1, x, y, cube->flr);
